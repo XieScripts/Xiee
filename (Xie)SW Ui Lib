@@ -88,7 +88,7 @@
         Main.Size = UDim2.new(0, 600, 0, 350)
     
             local uistroke = Instance.new("UIStroke",Main)
-            uistroke.Color = Color3.fromRGB(255,95,31)
+            uistroke.Color = Color3.fromRGB(255,16,240)
             uistroke.Thickness = 2
 
         local Top = Instance.new("Frame")
@@ -119,7 +119,7 @@
         NameHub.Size = UDim2.new(0, 110, 0, 20)
         NameHub.Font = Enum.Font.GothamMedium
         NameHub.Text = text
-        NameHub.TextColor3 = Color3.fromRGB(255,95,31)
+        NameHub.TextColor3 = Color3.fromRGB(255,16,240)
                     spawn(function()
                     while wait() do
                     pcall(function()
@@ -284,7 +284,7 @@
         TabFolder.Parent = Main
     
            local uistroke = Instance.new("UIStroke",TabFolder)
-            uistroke.Color = Color3.fromRGB(255,95,31)
+            uistroke.Color = Color3.fromRGB(255,16,240)
             uistroke.Thickness = 2
 
         MakeDraggable(Top,Main)
@@ -319,7 +319,7 @@
             PageButton.AutoButtonColor = false
             PageButton.Font = Enum.Font.GothamSemibold
             PageButton.Text = text
-            PageButton.TextColor3 = Color3.fromRGB(255,95,31)
+            PageButton.TextColor3 = Color3.fromRGB(255,16,240)
   
             PageButton.TextSize = 11.000
             PageButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -343,7 +343,7 @@
             MainTab.Size = UDim2.new(0, 475, 0, 350)
             MainTab.Visible = false
             local uistroke = Instance.new("UIStroke",MainTab)
-            uistroke.Color = Color3.fromRGB(255,95,31)
+            uistroke.Color = Color3.fromRGB(255,16,240)
             uistroke.Thickness = 1
             local ScrollTab = Instance.new("ScrollingFrame")
             ScrollTab.Name = "ScrollTab"
@@ -382,13 +382,13 @@
                         TweenService:Create(
                             v,
                             TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                            {TextColor3 = Color3.fromRGB(255,95,31)}
+                            {TextColor3 = Color3.fromRGB(255,16,240)}
                         ):Play()
                     end
                     TweenService:Create(
                         PageButton,
                         TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                        {TextColor3 = Color3.fromRGB(255,95,31)}
+                        {TextColor3 = Color3.fromRGB(255,16,240)}
                     ):Play()
                 end
             end)
@@ -397,7 +397,7 @@
                 TweenService:Create(
                     PageButton,
                     TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-                    {TextColor3 = Color3.fromRGB(255,95,31)}
+                    {TextColor3 = Color3.fromRGB(255,16,240)}
                 ):Play()
                 for i,v in next, TabFolder:GetChildren() do 
                     if v.Name == "MainTab" then
@@ -422,7 +422,7 @@
     
                 Button.Name = "Button"
                 Button.Parent = ScrollTab
-                Button.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Button.BackgroundColor3 = Color3.fromRGB(255,16,240)
                 Button.BackgroundTransparency = 0.1
                 Button.BorderSizePixel = 0
                 Button.Size = UDim2.new(0, 455, 0, 30)
@@ -472,7 +472,7 @@
                 local Toggle = Instance.new("TextButton")
                 Toggle.Name = "Toggle"
                 Toggle.Parent = ScrollTab
-                Toggle.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Toggle.BackgroundColor3 = Color3.fromRGB(255,16,240)
                 Toggle.BackgroundTransparency = 0.1
                 Toggle.BorderSizePixel = 0
                 Toggle.AutoButtonColor = false
@@ -574,7 +574,7 @@
     
                 Textboxx.Name = "Textboxx"
                 Textboxx.Parent = ScrollTab
-                Textboxx.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Textboxx.BackgroundColor3 = Color3.fromRGB(255,16,240)
                 Textboxx.Size = UDim2.new(0, 455, 0, 30)
     
                 TextboxxCorner.CornerRadius = UDim.new(0, 5)
@@ -632,7 +632,7 @@
                 Dropdown.Name = "Dropdown"
                 Dropdown.Parent = ScrollTab
                 Dropdown.Active = true
-                Dropdown.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Dropdown.BackgroundColor3 = Color3.fromRGB(255,16,240)
                 Dropdown.ClipsDescendants = true
                 Dropdown.Size = UDim2.new(0, 455, 0, 30)
                 
@@ -710,7 +710,7 @@
                         TweenService:Create(
                             DropButton2,
                             TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-                            {TextColor3 = Color3.fromRGB(255,95,31)}
+                            {TextColor3 = Color3.fromRGB(255,16,240)}
                         ):Play()
                     end)
                     DropButton2.MouseLeave:Connect(function()
@@ -838,7 +838,7 @@
     
                 Slider.Name = "Slider"
                 Slider.Parent = ScrollTab
-                Slider.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Slider.BackgroundColor3 = Color3.fromRGB(255,16,240)
                 Slider.Size = UDim2.new(0, 455, 0, 40)
     
                 UICorner.CornerRadius = UDim.new(0, 5)
@@ -886,7 +886,7 @@
     
                 Bar.Name = "Bar"
                 Bar.Parent = Bar1
-                Bar.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Bar.BackgroundColor3 = Color3.fromRGB(255,16,240)
                 Bar.Size = UDim2.new(set/max, 0, 0, 5)
     
                 UICorner_2.CornerRadius = UDim.new(0, 100)
@@ -966,7 +966,7 @@
     
                 Sep1.Name = "Sep1"
                 Sep1.Parent = Seperator
-                Sep1.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Sep1.BackgroundColor3 = Color3.fromRGB(255,16,240)
                 Sep1.BorderSizePixel = 0
                 Sep1.Position = UDim2.new(0, 0, 0, 10)
                 Sep1.Size = UDim2.new(0, 150, 0, 1)
@@ -979,13 +979,13 @@
                 SepLabel.Size = UDim2.new(0, 255, 0, 20)
                 SepLabel.Font = Enum.Font.Gotham
                 SepLabel.Text = text
-                SepLabel.TextColor3 = Color3.fromRGB(255,95,31)
+                SepLabel.TextColor3 = Color3.fromRGB(255,16,240)
                   
                 SepLabel.TextSize = 11.000
     
                 Sep2.Name = "Sep2"
                 Sep2.Parent = Seperator
-                Sep2.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Sep2.BackgroundColor3 = Color3.fromRGB(255,16,240)
 
                 Sep2.BorderSizePixel = 0
                 Sep2.Position = UDim2.new(0, 305, 0, 10)
@@ -1004,7 +1004,7 @@
     
                 Linee.Name = "Linee"
                 Linee.Parent = Line
-                Linee.BackgroundColor3 = Color3.fromRGB(255,95,31)
+                Linee.BackgroundColor3 = Color3.fromRGB(255,16,240)
                 Linee.BorderSizePixel = 0
                 Linee.Position = UDim2.new(0, 0, 0, 10)
                 Linee.Size = UDim2.new(0, 455, 0, 1)
@@ -1020,7 +1020,7 @@
                 Label.BackgroundTransparency = 1.000
                 Label.Size = UDim2.new(0, 455, 0, 20)
                 Label.Font = Enum.Font.Gotham
-                Label.TextColor3 = Color3.fromRGB(255,95,31)
+                Label.TextColor3 = Color3.fromRGB(255,16,240)
  
                 Label.TextSize = 11.000
                 Label.Text = text
@@ -1067,9 +1067,9 @@
     Toggle.Position = UDim2.new(0.102097899, 0, 0.0742971897, 0)
     Toggle.Size = UDim2.new(0, 59, 0, 49)
     Toggle.Font = Enum.Font.SciFi
-    Toggle.Text = "CNR"
+    Toggle.Text = "XIE"
     local uistroke = Instance.new("UIStroke",Toggle)
-    uistroke.Color = Color3.fromRGB(255,95,31)
+    uistroke.Color = Color3.fromRGB(255,16,240)
     uistroke.Thickness = 1
     Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
     Toggle.TextScaled = true
